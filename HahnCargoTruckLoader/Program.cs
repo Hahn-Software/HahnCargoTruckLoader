@@ -16,5 +16,5 @@ var result = sim.RunSimulation(loadingInstructions);
 
 Console.WriteLine(result ? "The plan does work!" : "The plan does NOT work!");
 Console.WriteLine("Hit any key to end the sim");
-Console.ReadKey();
+Console.Read();
 
